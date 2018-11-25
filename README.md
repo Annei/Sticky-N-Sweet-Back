@@ -1,1 +1,1 @@
-# StickyNSweet# Sticky-N-Sweet-Back
+# StickyNSweet
