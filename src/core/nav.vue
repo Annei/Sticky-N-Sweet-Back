@@ -13,187 +13,41 @@
 		<el-menu-item index="/dashboard">
 			<i class="mdi mdi-gauge"></i><span slot="title">Dashboard</span>
 		</el-menu-item>
-		<!--<el-menu-item index="/calendar">
-			<i class="mdi mdi-calendar"></i><span slot="title">Calendar</span>
-		</el-menu-item>-->
+		<el-menu-item index="/calendar">
+			<i class="mdi mdi-calendar"></i><span slot="title">Calendario</span>
+		</el-menu-item>
 		<el-menu-item index="/contacts">
-			<i class="mdi mdi-account-multiple-outline"></i><span slot="title">Contacts</span>
+			<i class="mdi mdi-account-multiple-outline"></i><span slot="title">Contactos</span>
 		</el-menu-item>
 		<el-menu-item index="/gallery">
 			<i class="mdi mdi-image-multiple"></i><span slot="title">Galería</span>
 		</el-menu-item>
 		<el-menu-item index="/timeline">
-			<i class="mdi mdi-source-commit-local"></i><span slot="title">Historial</span>
+			<i class="mdi mdi-source-commit-local"></i><span slot="title">Chat</span>
 		</el-menu-item>
-		
-
-		<div class="el-menu-item-group__title"><span>Interfaz Usuario</span></div>
-		
-		<el-menu-item index="/themes">
-			<i class="mdi mdi-format-color-fill"></i><span slot="title">Temas</span>
-		</el-menu-item>
-		
-		<el-submenu index="icons" popper-class="main-navigation-submenu">
-			<template slot="title">
-				<i class="mdi mdi-folder-image"></i><span>Icons</span>
-			</template>
-			<el-menu-item index="/icons/md-icons">
-				<span slot="title">MD Icons</span>
-			</el-menu-item>
-			<el-menu-item index="/icons/flag-icons">
-				<span slot="title">Flag Icons</span>
-			</el-menu-item>
-		</el-submenu>
-		<el-menu-item index="/multi-language">
-			<i class="mdi mdi-translate"></i><span slot="title">Multilenguaje</span>
-		</el-menu-item>
-		<el-menu-item index="/typography">
-			<i class="mdi mdi-format-font"></i><span slot="title">Tipografía</span>
-		</el-menu-item>
-		<el-menu-item index="/helper-classes">
-			<i class="mdi mdi-help-circle-outline"></i><span slot="title">Helper Classes</span>
-		</el-menu-item>
-		<el-submenu index="element" popper-class="main-navigation-submenu limit-height">
-			<template slot="title">
-				<i class="mdi mdi-shape"></i><span>Element</span>
-			</template>
-			<el-menu-item index="/element/button">
-				<span slot="title">Button</span>
-			</el-menu-item>
-			<el-menu-item index="/element/radio">
-				<span slot="title">Radio</span>
-			</el-menu-item>
-			<el-menu-item index="/element/checkbox">
-				<span slot="title">Checkbox</span>
-			</el-menu-item>
-			<el-menu-item index="/element/input">
-				<span slot="title">Input</span>
-			</el-menu-item>
-			<el-menu-item index="/element/input-number">
-				<span slot="title">Input Number</span>
-			</el-menu-item>
-			<el-menu-item index="/element/select">
-				<span slot="title">Select</span>
-			</el-menu-item>
-			<el-menu-item index="/element/cascader">
-				<span slot="title">Cascader</span>
-			</el-menu-item>
-			<el-menu-item index="/element/switch">
-				<span slot="title">Switch</span>
-			</el-menu-item>
-			<el-menu-item index="/element/slider">
-				<span slot="title">Slider</span>
-			</el-menu-item>
-			<el-menu-item index="/element/time-picker">
-				<span slot="title">Time Picker</span>
-			</el-menu-item>
-			<el-menu-item index="/element/date-picker">
-				<span slot="title">Date Picker</span>
-			</el-menu-item>
-			<el-menu-item index="/element/datetime-picker">
-				<span slot="title">Date Time Picker</span>
-			</el-menu-item>
-			<el-menu-item index="/element/upload">
-				<span slot="title">Upload</span>
-			</el-menu-item>
-			<el-menu-item index="/element/rate">
-				<span slot="title">Rate</span>
-			</el-menu-item>
-			<el-menu-item index="/element/color-picker">
-				<span slot="title">Color Picker</span>
-			</el-menu-item>
-			<el-menu-item index="/element/transfer">
-				<span slot="title">Transfer</span>
-			</el-menu-item>
-			<el-menu-item index="/element/form">
-				<span slot="title">Form</span>
-			</el-menu-item>
-			<el-menu-item index="/element/table">
-				<span slot="title">Table</span>
-			</el-menu-item>
-			<el-menu-item index="/element/tag">
-				<span slot="title">Tag</span>
-			</el-menu-item>
-			<el-menu-item index="/element/progress">
-				<span slot="title">Progress</span>
-			</el-menu-item>
-			<el-menu-item index="/element/tree">
-				<span slot="title">Tree</span>
-			</el-menu-item>
-			<el-menu-item index="/element/pagination">
-				<span slot="title">Pagination</span>
-			</el-menu-item>
-			<el-menu-item index="/element/badge">
-				<span slot="title">Badge</span>
-			</el-menu-item>
-			<el-menu-item index="/element/alert">
-				<span slot="title">Alert</span>
-			</el-menu-item>
-			<el-menu-item index="/element/loading">
-				<span slot="title">Loading</span>
-			</el-menu-item>
-			<el-menu-item index="/element/message">
-				<span slot="title">Message</span>
-			</el-menu-item>
-			<el-menu-item index="/element/message-box">
-				<span slot="title">Message Box</span>
-			</el-menu-item>
-			<el-menu-item index="/element/notification">
-				<span slot="title">Notification</span>
-			</el-menu-item>
-			<el-menu-item index="/element/menu">
-				<span slot="title">NavMenu</span>
-			</el-menu-item>
-			<el-menu-item index="/element/tabs">
-				<span slot="title">Tabs</span>
-			</el-menu-item>
-			<el-menu-item index="/element/breadcrumb">
-				<span slot="title">Breadcrumb</span>
-			</el-menu-item>
-			<el-menu-item index="/element/dropdown">
-				<span slot="title">Dropdown</span>
-			</el-menu-item>
-			<el-menu-item index="/element/steps">
-				<span slot="title">Steps</span>
-			</el-menu-item>
-			<el-menu-item index="/element/dialog">
-				<span slot="title">Dialog</span>
-			</el-menu-item>
-			<el-menu-item index="/element/tooltip">
-				<span slot="title">Tooltip</span>
-			</el-menu-item>
-			<el-menu-item index="/element/popover">
-				<span slot="title">Popover</span>
-			</el-menu-item>
-			<el-menu-item index="/element/card">
-				<span slot="title">Card</span>
-			</el-menu-item>
-			<el-menu-item index="/element/carousel">
-				<span slot="title">Carousel</span>
-			</el-menu-item>
-			<el-menu-item index="/element/collapse">
-				<span slot="title">Collapse</span>
-			</el-menu-item>
-		</el-submenu>
-
-
 
 		<div class="el-menu-item-group__title"><span>Componentes</span></div>
 		<el-submenu index="tables" popper-class="main-navigation-submenu">
 			<template slot="title">
-				<i class="mdi mdi-table"></i><span>Tables</span>
+				<i class="mdi mdi-table"></i><span>Tablas</span>
 			</template>
-			<el-menu-item index="/tables/simple-table">
-				<span slot="title">Table</span>
-			</el-menu-item>
-			<el-menu-item index="/tables/vgtable">
-				<span slot="title">Vue Good Table</span>
-			</el-menu-item>
-			<el-menu-item index="/tables/table-element">
-				<span slot="title">Element UI Table</span>
-			</el-menu-item>
-			<el-menu-item index="/tables/v2table">
+			<!--<el-menu-item index="/tables/v2table">
 				<span slot="title">V2 Table</span>
+			</el-menu-item>-->
+			<el-menu-item index="/tables/productos">
+				<span slot="title">Productos</span>
+			</el-menu-item>
+			<el-menu-item index="/tables/tamaños">
+				<span slot="title">Tamaños</span>
+			</el-menu-item>
+			<el-menu-item index="/tables/categorias">
+				<span slot="title">Categorías</span>
+			</el-menu-item>
+			<el-menu-item index="/tables/administradores">
+				<span slot="title">Administradores</span>
+			</el-menu-item>
+			<el-menu-item index="/tables/ventas">
+				<span slot="title">Ventas</span>
 			</el-menu-item>
 		</el-submenu>
 		<el-submenu index="maps" popper-class="main-navigation-submenu">
@@ -203,35 +57,35 @@
 			<el-menu-item index="/maps/gmaps">
 				<span slot="title">G Maps</span>
 			</el-menu-item>
-			<el-menu-item index="/maps/leaflet">
+			<!--<el-menu-item index="/maps/leaflet">
 				<span slot="title">Leaflet</span>
 			</el-menu-item>
 			<el-menu-item index="/maps/mapbox">
 				<span slot="title">Mapbox</span>
-			</el-menu-item>
+			</el-menu-item>-->
 			<el-menu-item index="/maps/datamaps">
 				<span slot="title">Datamaps</span>
 			</el-menu-item>
 		</el-submenu>
 		<el-submenu index="editors" popper-class="main-navigation-submenu">
 			<template slot="title">
-				<i class="mdi mdi-pencil-box"></i><span>Editors</span>
+				<i class="mdi mdi-pencil-box"></i><span>Editor</span>
 			</template>
-			<el-menu-item index="/editors/quill">
+			<!--<el-menu-item index="/editors/quill">
 				<span slot="title">Quill</span>
 			</el-menu-item>
 			<el-menu-item index="/editors/pell">
 				<span slot="title">Pell</span>
-			</el-menu-item>
+			</el-menu-item>-->
 			<el-menu-item index="/editors/markdown">
-				<span slot="title">Markdown</span>
+				<span slot="title">Pagina</span>
 			</el-menu-item>
 		</el-submenu>
 		<el-submenu index="charts" popper-class="main-navigation-submenu">
 			<template slot="title">
-				<i class="mdi mdi-chart-areaspline"></i><span>Charts</span>
+				<i class="mdi mdi-chart-areaspline"></i><span>Graficass</span>
 			</template>
-			<el-menu-item index="/charts/vuebars">
+			<!--<el-menu-item index="/charts/vuebars">
 				<span slot="title">Vue Bars</span>
 			</el-menu-item>
 			<el-menu-item index="/charts/vuetrend">
@@ -239,11 +93,11 @@
 			</el-menu-item>
 			<el-menu-item index="/charts/vued3network">
 				<span slot="title">Vue D3 Network</span>
-			</el-menu-item>
+			</el-menu-item>-->
 			<el-menu-item index="/charts/vuevis">
 				<span slot="title">Vue Vis</span>
 			</el-menu-item>
-			<el-menu-item index="/charts/vuechartist">
+			<!--<el-menu-item index="/charts/vuechartist">
 				<span slot="title">Vue Chartist</span>
 			</el-menu-item>
 			<el-menu-item index="/charts/vuechartkick">
@@ -257,7 +111,7 @@
 			</el-menu-item>
 			<el-menu-item index="/charts/plotly">
 				<span slot="title">Plotly</span>
-			</el-menu-item>
+			</el-menu-item>-->
 			<el-menu-item index="/charts/echarts">
 				<span slot="title">Echarts</span>
 			</el-menu-item>
@@ -265,29 +119,29 @@
 
 		
 
-		<div class="el-menu-item-group__title"><span>Pages</span></div>
+		<div class="el-menu-item-group__title"><span>Paginas</span></div>
 		<el-menu-item index="/profile">
-			<i class="mdi mdi-account-card-details"></i><span slot="title">Profile</span>
+			<i class="mdi mdi-account-card-details"></i><span slot="title">Perfil</span>
 		</el-menu-item>
 		<el-submenu index="authentication" popper-class="main-navigation-submenu">
 			<template slot="title">
-				<i class="mdi mdi-lock"></i><span>Authentication</span>
+				<i class="mdi mdi-lock"></i><span>Autenticación</span>
 			</template>
 			<el-menu-item index="/logout">
 				<span slot="title">Login</span>
 			</el-menu-item>
 			<el-menu-item index="/register">
-				<span slot="title">Register</span>
+				<span slot="title">Registrarse</span>
 			</el-menu-item>
 			<el-menu-item index="/forgot-password">
-				<span slot="title">Forgot Password</span>
+				<span slot="title">¿Olvidaste tu contraseña?</span>
 			</el-menu-item>
 		</el-submenu>
 		<el-menu-item index="/invoice">
-			<i class="mdi mdi-file-document"></i><span slot="title">Invoice</span>
+			<i class="mdi mdi-file-document"></i><span slot="title">Facturas</span>
 		</el-menu-item>
 		<el-menu-item index="/404">
-			<i class="mdi mdi-alert-octagon"></i><span slot="title">404</span>
+			<i class="mdi mdi-alert-octagon"></i><span slot="title">Erro 404</span>
 		</el-menu-item>
 
 	</el-menu>	

@@ -33,7 +33,7 @@
 			<el-badge :is-dot="true" class="notification-icon-badge">
 				<el-button v-popover:popover icon="mdi mdi-bell" class="notification-icon"></el-button>
 			</el-badge>
-			<span class="username"><router-link to="/profile">NO ME ACUERDO DEL NOMBRE|</router-link></span>
+			<span class="username"><router-link to="/profile">Jenn Bonilla</router-link></span>
 			<el-dropdown trigger="click" @command="onCommand">
 				<span class="el-dropdown-link">
 					<img src="../assets/images/avatar.jpg" class="avatar" alt="avatar">
@@ -64,7 +64,7 @@ export default {
 		return {
 			popoverWidth: 300,
 			fullscreen: false,
-			lang: 'us'
+			lang: 'es'
 		}
 	},
 	methods: {
