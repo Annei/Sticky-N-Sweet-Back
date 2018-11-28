@@ -9,7 +9,7 @@ import Tamaños from '../views/ui/Tables/Tamaños.vue'
 import Categorias from '../views/ui/Tables/Categorias.vue'
 import Administradores from '../views/ui/Tables/Administradores.vue'
 import Ventas from '../views/ui/Tables/Ventas.vue'
-import Edits from '../views/ui/Tables/Edits.vue'
+//import Edits from '../views/ui/Tables/Edits.vue'
 
 export default {
 	path: '/tables',
