@@ -8,7 +8,7 @@
 					<!--parte del cuadro para agregar contactos-->
 				<el-input   
 					prefix-icon="el-icon-search"
-					placeholder="Search a contact"
+					placeholder="Buscar Contactos"
 					clearable
 					v-model="search">
 				</el-input>
@@ -59,7 +59,7 @@ import  {getContacts} from '@/api/Contacts'
 
 const flatsData =  []
 export default {
-	name: 'Contacts',
+	name: 'Contactos',
 	data() {
 		return {
 			search: '',

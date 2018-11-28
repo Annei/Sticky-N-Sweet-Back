@@ -93,9 +93,9 @@ export default {
 						click: this.addEventDialog
 					}
 				},
-				lang: 'en',
+				lang: 'es',
 				header: {
-					left:   'prev,next today',
+					left:   'anterior,siguiente,hoy',
 					center: 'title',
 					right:  'month,agendaWeek,agendaDay,listWeek addEvent'
 				},
