@@ -130,20 +130,8 @@ export default {
 				tags: ['advanced']
 
 			}
-		},
-		{
-			path: 'edits',
-			name: 'edits',
-			component: Edits,
-			meta:{
-				auth: true,
-				layout: layouts.navLeft,
-				searchable: true,
-				title: 'Edits Tabla',
-				tags: ['advanced']
-
-			}
 		}
+		
 	]
 }
 
